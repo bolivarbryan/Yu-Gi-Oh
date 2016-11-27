@@ -1,0 +1,54 @@
+{ "results": [
+	{
+        "Ataque": 2500,
+        "Defensa": 2400,
+        "Descripcion": "Un erudito en las artes mágicas",
+        "Imagen": "http://vignette1.wikia.nocookie.net/yugioh/images/3/39/DarkMagician-TF05-JP-VG.png",
+        "Nivel": 7,
+        "Nombre": "Mago Oscuro",
+        "Raza": "Mago",
+        "Tipo": "Oscuridad",
+        "createdAt": "2016-11-26T20:57:14.257Z",
+        "objectId": "TfzbVyAuB3",
+        "updatedAt": "2016-11-26T22:02:48.209Z"
+    },
+	{
+        "Ataque": 3000,
+        "Defensa": 2500,
+        "Descripcion": "Un dragón muy poderoso, racista y amante de Donald Trump",
+        "Imagen": "http://vignette2.wikia.nocookie.net/yugioh/images/8/86/BlueEyesWhiteDragon-TF04-JP-VG.jpg",
+        "Nivel": 8,
+        "Nombre": "Dragón Blanco de ojos azules",
+        "Raza": "Dragón",
+        "Tipo": "Luz",
+        "createdAt": "2016-11-26T20:53:29.874Z",
+        "objectId": "atDqMorgI6",
+        "updatedAt": "2016-11-27T01:29:43.776Z"
+    },
+	{
+        "Ataque": 5500,
+        "Defensa": 5000,
+        "Descripcion": "Hijo d loki que devasta tierra ",
+        "Imagen": "https://scontent.xx.fbcdn.net/v/t1.0-9/12814719_10153916895110750_354768911341806775_n.jpg?oh=d202a6757111dde742cd06f12c49aae3\u0026oe=58D02253",
+        "Nivel": 12,
+        "Nombre": "Cash",
+        "Raza": "Bestia",
+        "Tipo": "Luz",
+        "createdAt": "2016-11-27T01:01:23.110Z",
+        "objectId": "oAmvB2yNAG",
+        "updatedAt": "2016-11-27T01:27:22.316Z"
+    },
+	{
+        "Ataque": 1600,
+        "Defensa": 10000,
+        "Descripcion": "Mientras tengas 1 o ninguna carta en tu mano, esta carta gana 400 ATK. Si no controlas otros monstruos, niega los efectos de los Monstruos de Efecto de Volteo destruidos en batalla con esta carta.",
+        "Imagen": "http://uploads4.yugioh.com/card_images/61/detail/Blade-Knight.jpg?1374097419",
+        "Nivel": 4,
+        "Nombre": "Blade Knight",
+        "Raza": "Guerrero/Efecto",
+        "Tipo": "Luz",
+        "createdAt": "2016-11-27T01:02:06.714Z",
+        "objectId": "sqoIY6cHY7",
+        "updatedAt": "2016-11-27T01:30:04.717Z"
+    }
+] }

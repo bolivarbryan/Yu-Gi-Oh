@@ -1,0 +1,6 @@
+framework module Pods_YugiOH {
+  umbrella header "Pods-YugiOH-umbrella.h"
+
+  export *
+  module * { export * }
+}

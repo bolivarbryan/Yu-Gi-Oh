@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		930576D51DEA547000875718 /* CardListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930576D41DEA547000875718 /* CardListController.swift */; };
+		930576D81DEA551E00875718 /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930576D71DEA551E00875718 /* CardTableViewCell.swift */; };
+		93353E931DEA2F3700C69F4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93353E921DEA2F3700C69F4E /* AppDelegate.swift */; };
+		93353E981DEA2F3700C69F4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93353E961DEA2F3700C69F4E /* Main.storyboard */; };
+		93353E9B1DEA2F3700C69F4E /* YugiOH.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93353E991DEA2F3700C69F4E /* YugiOH.xcdatamodeld */; };
+		93353E9D1DEA2F3700C69F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93353E9C1DEA2F3700C69F4E /* Assets.xcassets */; };
+		93353EA01DEA2F3700C69F4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93353E9E1DEA2F3700C69F4E /* LaunchScreen.storyboard */; };
+		93353EA91DEA2F6500C69F4E /* Carta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93353EA81DEA2F6500C69F4E /* Carta.swift */; };
+		93702FCA1DEA5CCE00ED4D22 /* CardDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93702FC91DEA5CCE00ED4D22 /* CardDetailsViewController.swift */; };
+		9379B8C41DEA356800CD8D0A /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9379B8C31DEA356800CD8D0A /* File.swift */; };
+		94FFD512EEDFF9E5ACEA4F63 /* Pods_YugiOH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CADD12EFF1FC8E08742A83 /* Pods_YugiOH.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		144B2F138B34B478BE94E358 /* Pods-YugiOH.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YugiOH.release.xcconfig"; path = "Pods/Target Support Files/Pods-YugiOH/Pods-YugiOH.release.xcconfig"; sourceTree = "<group>"; };
+		930576D41DEA547000875718 /* CardListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardListController.swift; path = Controllers/CardListController.swift; sourceTree = "<group>"; };
+		930576D71DEA551E00875718 /* CardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardTableViewCell.swift; path = Views/CardTableViewCell.swift; sourceTree = "<group>"; };
+		93353E8F1DEA2F3700C69F4E /* YugiOH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YugiOH.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93353E921DEA2F3700C69F4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93353E971DEA2F3700C69F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93353E9A1DEA2F3700C69F4E /* YugiOH.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YugiOH.xcdatamodel; sourceTree = "<group>"; };
+		93353E9C1DEA2F3700C69F4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93353E9F1DEA2F3700C69F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93353EA11DEA2F3700C69F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93353EA81DEA2F6500C69F4E /* Carta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Carta.swift; path = Model/Carta.swift; sourceTree = "<group>"; };
+		93702FC91DEA5CCE00ED4D22 /* CardDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardDetailsViewController.swift; path = Controllers/CardDetailsViewController.swift; sourceTree = "<group>"; };
+		9379B8C31DEA356800CD8D0A /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = File.swift; path = Networking/File.swift; sourceTree = "<group>"; };
+		C9CADD12EFF1FC8E08742A83 /* Pods_YugiOH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YugiOH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E57366E8FA0EFBD74FF8CF48 /* Pods-YugiOH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YugiOH.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YugiOH/Pods-YugiOH.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93353E8C1DEA2F3700C69F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FFD512EEDFF9E5ACEA4F63 /* Pods_YugiOH.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0875BFC4542FB540717CEAF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9CADD12EFF1FC8E08742A83 /* Pods_YugiOH.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		806731872E6BF72FFAA20BF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E57366E8FA0EFBD74FF8CF48 /* Pods-YugiOH.debug.xcconfig */,
+				144B2F138B34B478BE94E358 /* Pods-YugiOH.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		930576D31DEA544C00875718 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				930576D41DEA547000875718 /* CardListController.swift */,
+				93702FC91DEA5CCE00ED4D22 /* CardDetailsViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		930576D61DEA54E700875718 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				930576D71DEA551E00875718 /* CardTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		93353E861DEA2F3700C69F4E = {
+			isa = PBXGroup;
+			children = (
+				93353E911DEA2F3700C69F4E /* YugiOH */,
+				93353E901DEA2F3700C69F4E /* Products */,
+				806731872E6BF72FFAA20BF1 /* Pods */,
+				0875BFC4542FB540717CEAF4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		93353E901DEA2F3700C69F4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93353E8F1DEA2F3700C69F4E /* YugiOH.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93353E911DEA2F3700C69F4E /* YugiOH */ = {
+			isa = PBXGroup;
+			children = (
+				930576D61DEA54E700875718 /* Views */,
+				930576D31DEA544C00875718 /* Controllers */,
+				9379B8C21DEA354D00CD8D0A /* Networking */,
+				93353EA71DEA2F3F00C69F4E /* Models */,
+				93353E921DEA2F3700C69F4E /* AppDelegate.swift */,
+				93353E961DEA2F3700C69F4E /* Main.storyboard */,
+				93353E9C1DEA2F3700C69F4E /* Assets.xcassets */,
+				93353E9E1DEA2F3700C69F4E /* LaunchScreen.storyboard */,
+				93353EA11DEA2F3700C69F4E /* Info.plist */,
+				93353E991DEA2F3700C69F4E /* YugiOH.xcdatamodeld */,
+			);
+			path = YugiOH;
+			sourceTree = "<group>";
+		};
+		93353EA71DEA2F3F00C69F4E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				93353EA81DEA2F6500C69F4E /* Carta.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9379B8C21DEA354D00CD8D0A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				9379B8C31DEA356800CD8D0A /* File.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93353E8E1DEA2F3700C69F4E /* YugiOH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93353EA41DEA2F3700C69F4E /* Build configuration list for PBXNativeTarget "YugiOH" */;
+			buildPhases = (
+				395A9E041D86435C31EFC274 /* [CP] Check Pods Manifest.lock */,
+				93353E8B1DEA2F3700C69F4E /* Sources */,
+				93353E8C1DEA2F3700C69F4E /* Frameworks */,
+				93353E8D1DEA2F3700C69F4E /* Resources */,
+				CB30A3114B90AFD96849AF30 /* [CP] Embed Pods Frameworks */,
+				9E1DD718E611DAFF9E44747F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YugiOH;
+			productName = YugiOH;
+			productReference = 93353E8F1DEA2F3700C69F4E /* YugiOH.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93353E871DEA2F3700C69F4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Bolivar;
+				TargetAttributes = {
+					93353E8E1DEA2F3700C69F4E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = K87XPR878Y;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 93353E8A1DEA2F3700C69F4E /* Build configuration list for PBXProject "YugiOH" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93353E861DEA2F3700C69F4E;
+			productRefGroup = 93353E901DEA2F3700C69F4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93353E8E1DEA2F3700C69F4E /* YugiOH */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93353E8D1DEA2F3700C69F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93353EA01DEA2F3700C69F4E /* LaunchScreen.storyboard in Resources */,
+				93353E9D1DEA2F3700C69F4E /* Assets.xcassets in Resources */,
+				93353E981DEA2F3700C69F4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		395A9E041D86435C31EFC274 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E1DD718E611DAFF9E44747F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YugiOH/Pods-YugiOH-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB30A3114B90AFD96849AF30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YugiOH/Pods-YugiOH-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93353E8B1DEA2F3700C69F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93702FCA1DEA5CCE00ED4D22 /* CardDetailsViewController.swift in Sources */,
+				9379B8C41DEA356800CD8D0A /* File.swift in Sources */,
+				930576D51DEA547000875718 /* CardListController.swift in Sources */,
+				93353E9B1DEA2F3700C69F4E /* YugiOH.xcdatamodeld in Sources */,
+				93353EA91DEA2F6500C69F4E /* Carta.swift in Sources */,
+				93353E931DEA2F3700C69F4E /* AppDelegate.swift in Sources */,
+				930576D81DEA551E00875718 /* CardTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		93353E961DEA2F3700C69F4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93353E971DEA2F3700C69F4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93353E9E1DEA2F3700C69F4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93353E9F1DEA2F3700C69F4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93353EA21DEA2F3700C69F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93353EA31DEA2F3700C69F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93353EA51DEA2F3700C69F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E57366E8FA0EFBD74FF8CF48 /* Pods-YugiOH.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K87XPR878Y;
+				INFOPLIST_FILE = YugiOH/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bolivar.YugiOH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		93353EA61DEA2F3700C69F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 144B2F138B34B478BE94E358 /* Pods-YugiOH.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K87XPR878Y;
+				INFOPLIST_FILE = YugiOH/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bolivar.YugiOH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93353E8A1DEA2F3700C69F4E /* Build configuration list for PBXProject "YugiOH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93353EA21DEA2F3700C69F4E /* Debug */,
+				93353EA31DEA2F3700C69F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93353EA41DEA2F3700C69F4E /* Build configuration list for PBXNativeTarget "YugiOH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93353EA51DEA2F3700C69F4E /* Debug */,
+				93353EA61DEA2F3700C69F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		93353E991DEA2F3700C69F4E /* YugiOH.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				93353E9A1DEA2F3700C69F4E /* YugiOH.xcdatamodel */,
+			);
+			currentVersion = 93353E9A1DEA2F3700C69F4E /* YugiOH.xcdatamodel */;
+			path = YugiOH.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 93353E871DEA2F3700C69F4E /* Project object */;
+}
